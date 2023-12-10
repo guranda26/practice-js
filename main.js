@@ -41,10 +41,10 @@ const replaceArg = (string, valueToReplace, valueToReplaceWith) => {
   }
 };
 
+console.log(replaceArg("age: 23", 23, 24));
+
 //3. დაწერე ფუნქცია, რომელიც პარამეტრად მიიღებს მომხმარებლების მასივს და
 //დააბრუნებს დალაგებულ მასივს მომხმარებლების ასაკის ზრდადობის მიხედვით
-
-console.log(replaceArg("age: 23", 23, 24));
 
 function sortObj(arr) {
   return arr.sort((a, b) => a.age - b.age);
